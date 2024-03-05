@@ -1,0 +1,38 @@
+
+main {
+  background: #eaeaea;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+}
+
+header {
+  height: 80px;
+  background-color: #5f6066;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+  
+}
+
+/* style changes for mobile sizes */
+@media (max-width: 700px) {
+  
+  main {
+    margin: 0.25rem;
+  }
+
+  header {
+    margin: 0.25rem;
+  }  
+  
+}

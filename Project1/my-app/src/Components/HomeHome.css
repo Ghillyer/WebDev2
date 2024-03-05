@@ -1,0 +1,15 @@
+/* Styles for the main part */
+main {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%; /* Adjust width as needed */
+    height:100%;
+    padding: 80px;
+    background-color: #bcbdc2; /* Background color */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+    z-index: -1; /* Ensure the main part is above other elements */
+  }
+  
