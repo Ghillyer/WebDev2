@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+.pokeCard {
+    padding: 20px;
+    background-color: #add8e6;
+    color: #333;
+    margin: 10px;
+    max-width: 250px;
+}
+
+.pokeCardBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

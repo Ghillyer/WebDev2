@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .nav {
+    background-color: #add8e6;
+    list-style: none; /* Remove bullet points */
+    display: flex; /* Display items side by side */
+    align-items: center; /* Vertically center items */
+  }
+  
+  .nav ul {
+    display: flex; /* Display items side by side */
+    list-style: none; /* Remove bullet points */
+    margin-left: 0;
+  }
+  
+  .nav li {
+    margin-left: 15px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+  }
+  
+  button.btn1,
+  button.btn {
+    border: 2px solid #333;
+    font-size: 30px;
+    padding: 10px 10px;
+    background-color: #fff;
+    color: #333; /* Set text color to purple */
+  }
+  
+  button.btn1:hover,
+  button.btn:hover {
+    background-color: #fff; /* Prevent changing button color on hover */
+  }
+  
+  .active button.btn1,
+  .active button.btn {
+    background-color: #fff;
+  }
+  
